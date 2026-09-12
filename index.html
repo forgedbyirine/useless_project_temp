@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia Snake Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="game-container">
+        <h1>SNAKE GAME</h1>
+        <div class="score-display">Score: <span id="score">0</span></div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="gameOverMessage" class="game-over-message">
+        GAME OVER!<br>
+        Your Score: <span id="finalScore">0</span><br>
+        <button id="restartButton">Play Again</button>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
